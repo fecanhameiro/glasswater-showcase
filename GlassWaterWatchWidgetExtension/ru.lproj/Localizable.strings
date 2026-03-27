@@ -1,0 +1,6 @@
+/* Watch Complication Strings */
+"watch_status_complete" = "Цель достигнута!";
+"watch_remaining %@" = "Осталось %@";
+"watch_complication_last_entry %@" = "Последний: %@";
+"watch_complication_title" = "Гидратация";
+"watch_complication_description" = "Отслеживай потребление воды";

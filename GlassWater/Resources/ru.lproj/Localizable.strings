@@ -1,0 +1,272 @@
+"tab_home" = "Главная";
+"tab_history" = "История";
+"tab_settings" = "Настройки";
+
+"home_title" = "Сегодня";
+"home_progress_title" = "Дневная вода";
+"home_goal_reached" = "Выполнено";
+"home_progress_subtitle" = "Пей понемногу и регулярно.";
+"home_progress_value %@ %@" = "%1$@ / %2$@";
+"home_progress_accessibility %@ %@" = "Сегодня %1$@ из %2$@";
+"home_add_amount %@" = "+%@";
+"home_add_amount_accessibility %@" = "Добавить %@ воды";
+"home_add_percent %d" = "%d%%";
+"home_add_percent_accessibility %d %@" = "Добавить %1$d процентов (%2$@) от цели";
+"home_add_custom" = "Другое";
+"home_add_other" = "Ещё";
+"home_add_custom_accessibility %@" = "Выбрать количество, последнее %@";
+"home_custom_title" = "Своё количество";
+"home_custom_value %@" = "%@";
+"home_entries_button %d" = "Записи (%d)";
+"home_entries_title" = "Записи за сегодня";
+"home_entries_empty" = "Записей пока нет.";
+"home_undo" = "Отменить";
+"home_streak_value %d" = "%d дней подряд";
+"home_entry_amount %@" = "Количество %@";
+"home_entry_amount_stepper %@" = "Количество %@";
+"home_entry_time" = "Время";
+"home_entry_edit_title" = "Редактировать запись";
+"home_custom_amount_title" = "Свое количество";
+"home_entry_delete" = "Удалить запись";
+"home_ring_accessibility_hint" = "Нажми, чтобы увидеть записи за сегодня";
+
+"entries_period_morning" = "Утро";
+"entries_period_afternoon" = "День";
+"entries_period_night" = "Вечер";
+"entries_header_today" = "Сегодня";
+"entries_count %lld" = "^[%lld запись](inflect: true)";
+"entries_header_progress %@ %@" = "%1$@ / %2$@";
+"entries_header_percent %@" = "%@ от цели";
+"entries_synced_health" = "Синхронизировано со Здоровьем";
+"entries_edit_amount" = "Количество";
+"entries_edit_time" = "Время";
+"entries_edit_delete" = "Удалить";
+"entries_delete_confirm" = "Подтвердить?";
+"entries_delete_confirmation" = "Удалить эту запись?";
+"entries_empty_title" = "Записей пока нет";
+"entries_empty_subtitle" = "Добавь воду с помощью кнопок на главном экране";
+
+"insight_peak_hour %d" = "Пик в %d:00";
+"insight_most_active_morning" = "Больше всего пьёшь утром";
+"insight_most_active_afternoon" = "Больше всего пьёшь днём";
+"insight_most_active_night" = "Больше всего пьёшь вечером";
+"insight_well_distributed" = "Хорошо распределено за день";
+
+"home_greeting_morning" = "Доброе утро";
+"home_greeting_afternoon" = "Добрый день";
+"home_greeting_evening" = "Добрый вечер";
+"home_status_on_track" = "Всё по плану!";
+"home_status_slightly_behind" = "Почти у цели!";
+"home_status_behind" = "Пора попить воды!";
+"home_support_default" = "Каждый глоток важен";
+"home_support_halfway" = "Ты молодец!";
+"home_support_goal_reached" = "Цель достигнута! Отлично";
+
+"history_title" = "История";
+"history_weekly_title" = "Эта неделя";
+"history_daily_title" = "По дням";
+"history_day_amount %@" = "%@";
+"history_last_14_days" = "Последние 14 дней";
+"history_today" = "Сегодня";
+"history_yesterday" = "Вчера";
+"history_goal_met" = "Цель";
+"history_streak" = "Серия";
+"history_no_entries" = "Нет записей";
+"history_one_entry" = "1 запись";
+"history_entries_count %lld" = "%lld записей";
+"history_of_goal" = "от цели";
+"history_row_accessibility_hint" = "Нажми, чтобы увидеть записи";
+"history_weekly_total" = "Всего";
+"history_daily_average" = "Среднее";
+"history_best_day" = "Лучший:";
+"history_streak_days %lld" = "%lld дней";
+"history_weekly_goal %@" = "Недельная цель: %@";
+"history_day_no_entries_title" = "Нет записей";
+"history_day_no_entries_subtitle" = "В этот день вода не была записана";
+
+"history_insight_morning_person" = "Ты больше пьёшь утром!";
+"history_insight_afternoon_person" = "Ты больше пьёшь днём!";
+"history_insight_evening_person" = "Ты больше пьёшь вечером!";
+"history_insight_consistent" = "Отличная стабильность на этой неделе!";
+"history_insight_improving" = "Ты улучшаешься!";
+"history_insight_needs_more" = "Давай пить больше воды!";
+"history_insight_great_week" = "Потрясающая неделя!";
+
+"settings_title" = "Настройки";
+"settings_daily_goal" = "Дневная цель";
+"settings_daily_goal_value %@" = "%@";
+"settings_daily_goal_stepper" = "Регулировка дневной цели";
+"settings_notifications" = "Уведомления";
+"settings_notifications_toggle" = "Умные напоминания";
+"settings_smart_notifications_title" = "Умные уведомления";
+"settings_smart_notifications_subtitle" = "Напоминания, которые подстраиваются под твой дневной прогресс";
+"settings_smart_notifications_info_accessibility" = "Об умных уведомлениях";
+"settings_smart_notifications_sheet_title" = "Как работают умные уведомления";
+"settings_smart_notifications_sheet_body" = "Умные уведомления настраивают напоминания в зависимости от того, сколько ты уже выпил за день.\n\nВместо напоминаний только по времени, приложение учитывает твою дневную цель, окно активных напоминаний и текущий прогресс.\n\nЕсли ты уже выпил ожидаемое количество к этому моменту, напоминание автоматически пропускается.\n\nТакже, если ты добавил воду за несколько минут до напоминания, лишнее уведомление не отправляется.\n\nЦель — напоминать тебе, когда это действительно нужно, уменьшая лишние прерывания.";
+"settings_reminder_start" = "Начало";
+"settings_reminder_end" = "Конец";
+"settings_reminder_interval_value %@" = "Интервал %@";
+"settings_live_activity" = "Live Activity";
+"settings_live_activity_toggle" = "Показывать на экране блокировки";
+"settings_live_activity_silent_toggle" = "Тихий режим на экране блокировки";
+"settings_haptics" = "Вибрация";
+"settings_haptics_toggle" = "Тактильная обратная связь";
+"settings_duck" = "Развлечение";
+"settings_duck_toggle" = "Плавающая уточка";
+"settings_duck_description" = "Пополняйте свой пруд, достигая ежедневной цели";
+"settings_duck_pond" = "Пруд с уточками";
+"settings_duck_pond_toggle" = "Показать уточек";
+
+"settings_duck_remaining %d" = "Осталось открыть: %d";
+
+// Duck Reward
+"duck_reward_title" = "Новая уточка в вашем пруду!";
+"duck_reward_title_first" = "Ваша первая уточка!";
+"duck_reward_subtitle" = "Вы достигли цели сегодня";
+"duck_reward_subtitle_first" = "Ваше приключение у пруда начинается";
+"duck_reward_count %d" = "Уточка #%d";
+"duck_reward_meet %@" = "Знакомьтесь, %@";
+"duck_reward_settings_hint" = "Управлять в Настройках";
+
+// Duck Names
+"duck_name_1" = "Соссо";
+"duck_name_2" = "Таня";
+"duck_name_3" = "Уилл";
+"duck_name_4" = "Ирис";
+"duck_name_5" = "Нова";
+"settings_health" = "Здоровье";
+"settings_health_status" = "Статус";
+"settings_health_request_access" = "Запросить доступ к Здоровью";
+"settings_health_status_connected" = "Подключено";
+"settings_health_status_denied" = "Отклонено";
+"settings_health_status_not_determined" = "Не определено";
+"settings_health_status_unknown" = "Неизвестно";
+
+"settings_units" = "Единицы";
+"settings_units_auto" = "Авто";
+"settings_units_ml" = "мл";
+"settings_units_oz" = "fl oz";
+"settings_units_auto_hint %@" = "На основе региона: %@";
+"settings_tip_jar" = "Чаевые";
+"settings_tip_jar_description" = "Если GlassWater помогает тебе пить воду, оставь чаевые! Это поддерживает разработку.";
+"settings_tip_jar_thank_you" = "Огромное спасибо! Ты потрясающий!";
+"settings_tip_jar_unavailable" = "Чаевые сейчас недоступны.";
+"settings_tip_jar_supporter" = "Покровитель";
+"settings_about" = "О приложении";
+"settings_privacy_policy" = "Политика конфиденциальности";
+"settings_terms" = "Условия использования";
+"settings_rate_app" = "Оценить GlassWater";
+"settings_app_version" = "Версия";
+
+"permissions_notifications_denied" = "Уведомления отключены. Включи в Настройках, чтобы получать напоминания.";
+"permissions_health_denied" = "Доступ к Здоровью отключён. Включи в Настройках для синхронизации.";
+"permissions_open_settings" = "Открыть Настройки";
+
+"notification_title" = "Пора выпить воды";
+"notification_body" = "Маленький глоток поддерживает день в тонусе.";
+"notification_action_percent" = "Добавить %d%%";
+"notification_action_add %@" = "Добавить %@";
+"notification_action_custom_amount" = "Добавить %@";
+"notification_action_custom_saved" = "Добавить последнее количество";
+"notification_action_custom_input" = "Добавить своё количество";
+"notification_action_custom_submit" = "Добавить";
+"notification_action_custom_placeholder" = "мл";
+
+"notification_title_morning_1" = "Доброе утро!";
+"notification_title_morning_2" = "Утренняя гидратация";
+"notification_title_morning_3" = "Начни день свежим";
+"notification_title_afternoon_1" = "Не забывай пить";
+"notification_title_afternoon_2" = "Дневное обновление";
+"notification_title_afternoon_3" = "Продолжай в том же духе";
+"notification_title_evening_1" = "Вечернее напоминание";
+"notification_title_evening_2" = "Вечер с водой";
+"notification_title_evening_3" = "Ещё один глоток";
+
+"notification_body_low_1" = "Твоему организму нужна вода для энергии.";
+"notification_body_low_2" = "Стакан воды может изменить всё.";
+"notification_body_low_3" = "Гидратация помогает оставаться сосредоточенным.";
+"notification_body_quarter_1" = "Отличное начало! Продолжай.";
+"notification_body_quarter_2" = "Ты формируешь полезную привычку.";
+"notification_body_quarter_3" = "Хороший прогресс — пей дальше.";
+"notification_body_half_1" = "Больше половины — ещё немного.";
+"notification_body_half_2" = "За экватором! Твой организм благодарит.";
+"notification_body_half_3" = "Больше половины выпито — финишируй!";
+"notification_body_high_1" = "Почти готово! Ещё чуть-чуть.";
+"notification_body_high_2" = "Так близко к цели — ты справишься.";
+"notification_body_high_3" = "Финиш уже виден!";
+"notification_body_streak_3" = "3 дня подряд — стабильность — это ключ.";
+"notification_body_streak_7" = "Целая неделя! Не прерывай серию.";
+"notification_body_streak_30" = "30-дневная серия! Ты неудержим.";
+
+"notification_action_snooze" = "Напомнить позже";
+
+"onboarding_title" = "Добро пожаловать в GlassWater";
+"onboarding_subtitle" = "Спокойный способ поддерживать гидратацию каждый день.";
+"onboarding_health_title" = "Синхронизация со Здоровьем";
+"onboarding_health_body" = "Подключи Здоровье, чтобы данные были согласованы на всех устройствах.";
+"onboarding_health_button" = "Подключить Здоровье";
+"onboarding_health_connected" = "Подключено к Здоровью";
+"onboarding_notifications_title" = "Мягкие напоминания";
+"onboarding_notifications_body" = "Получай ненавязчивые напоминания, когда пора попить.";
+"onboarding_continue" = "Продолжить";
+"onboarding_complete_title" = "Всё готово!";
+"onboarding_complete_subtitle" = "Твой ежедневный ритуал гидратации начинается сейчас.";
+"onboarding_get_started" = "Начать";
+"onboarding_tap_drop_hint" = "Нажми на каплю";
+"onboarding_greeting_invitation" = "Давай создадим спокойный ритм гидратации.";
+"onboarding_goal_title" = "Установи дневную цель";
+"onboarding_goal_body" = "Сколько воды ты хочешь пить каждый день?";
+"onboarding_widget_title" = "Следи за прогрессом";
+"onboarding_widget_body" = "Добавь виджет на главный экран для быстрого доступа.";
+"onboarding_widget_add" = "Добавить виджет";
+"widget_remaining" = "Осталось";
+
+"common_done" = "Готово";
+"common_save" = "Сохранить";
+"common_back" = "Назад";
+"common_delete" = "Удалить";
+
+"intent_add_water_title" = "Добавить воду";
+"intent_add_water_description" = "Быстро записать потребление воды.";
+"intent_add_water_amount_title" = "Количество (мл)";
+"intent_add_water_source_title" = "Источник";
+"intent_add_water_source_app" = "Приложение";
+"intent_add_water_source_widget" = "Виджет";
+"intent_add_water_source_live_activity" = "Live Activity";
+"intent_add_water_source_watch" = "Часы";
+"intent_add_water_source_notification" = "Уведомление";
+"intent_add_water_source_background" = "Фон";
+"intent_add_water_source_health" = "Здоровье";
+"intent_add_water_source_siri" = "Siri";
+"intent_add_water_source_unknown" = "Неизвестно";
+"app_intent_add_water_phrase" = "Добавить воду";
+"app_intent_add_water_short_title" = "Добавить воду";
+
+"widget_title" = "Вода";
+"widget_description" = "Дневное потребление одним взглядом.";
+"widget_last_intake" = "Последнее";
+"widget_last_intake_empty" = "Нет записей";
+"widget_last_intake_value %@ %@" = "%@ в %@";
+"widget_quick_add" = "Быстрое добавление";
+"widget_status_complete" = "Цель достигнута!";
+"widget_status_almost" = "Почти у цели!";
+"widget_status_halfway" = "Половина пути";
+"widget_status_keep_going" = "Продолжай!";
+"widget_status_start" = "Начинаем!";
+
+"live_activity_title" = "Вода сегодня";
+
+"watch_title" = "Быстрое добавление";
+"watch_add_button" = "Сохранить";
+
+"chart_day" = "День";
+"chart_amount" = "Количество";
+"chart_tap_hint" = "Нажми на столбик для подробностей";
+"chart_accessibility_hint" = "Нажми, чтобы выбрать час и увидеть детали";
+"chart_accessibility_no_data" = "График без данных";
+"chart_accessibility_summary %@ %lld %lld %@" = "Всего %1$@ за %2$lld часов, пик в %3$lld ч с %4$@";
+"chart_accessibility_total %@" = "Всего %@";
+
+// MARK: - Settings Footer
+"settings_footer_made_with_love" = "Сделано с душой";
+"settings_footer_inspired_by_music" = "Вдохновлено музыкой";

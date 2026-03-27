@@ -1,0 +1,84 @@
+"tab_home" = "Início";
+"tab_history" = "Histórico";
+"tab_settings" = "Ajustes";
+
+"home_title" = "Hoje";
+"home_progress_title" = "Água diária";
+"home_goal_reached" = "Concluído";
+"home_progress_subtitle" = "Leve e constante.";
+"home_progress_value %@ %@" = "%1$@ / %2$@";
+"home_add_amount %@" = "+%@";
+"home_add_amount_accessibility %@" = "Adicionar %@ de água";
+"home_add_percent %d" = "%d%%";
+
+"history_title" = "Histórico";
+"history_weekly_title" = "Visão semanal";
+"history_daily_title" = "Totais diários";
+"history_day_amount %@" = "%@";
+
+"settings_title" = "Ajustes";
+"settings_daily_goal" = "Meta diária";
+"settings_daily_goal_value %@" = "%@";
+"settings_daily_goal_stepper" = "Ajuste da meta diária";
+"settings_notifications" = "Notificações";
+"settings_notifications_toggle" = "Lembretes inteligentes";
+"settings_health" = "Saúde";
+"settings_health_status" = "Status";
+"settings_health_request_access" = "Solicitar acesso ao Saúde";
+"settings_health_status_connected" = "Conectado";
+"settings_health_status_denied" = "Negado";
+"settings_health_status_not_determined" = "Não determinado";
+"settings_health_status_unknown" = "Desconhecido";
+
+"notification_title" = "Hora de beber água";
+"notification_body" = "Um pequeno gole mantém o dia em movimento.";
+
+"intent_add_water_title" = "Adicionar água";
+"intent_add_water_description" = "Registrar uma ingestão de água rapidamente.";
+"intent_add_water_amount_title" = "Quantidade (mL)";
+"app_intent_add_water_phrase" = "Adicionar água";
+"app_intent_add_water_short_title" = "Adicionar água";
+
+"widget_title" = "Água";
+"widget_description" = "Ingestão diária em um olhar.";
+"widget_remaining" = "Falta";
+"widget_last_intake" = "Último";
+"widget_last_intake_empty" = "Sem registro";
+"widget_last_intake_value %@ %@" = "%1$@ · %2$@";
+"widget_quick_add" = "Adicionar";
+"widget_status_complete" = "Meta atingida!";
+"widget_status_almost" = "Quase lá!";
+"widget_status_halfway" = "Na metade";
+"widget_status_keep_going" = "Continue assim!";
+"widget_status_start" = "Vamos começar!";
+"widget_configuration_title" = "Atalhos do widget";
+"widget_configuration_description" = "Escolha os tamanhos de atalho exibidos no widget.";
+"widget_shortcut_primary_title" = "Atalho principal";
+"widget_shortcut_secondary_title" = "Atalho secundário";
+"widget_shortcut_tertiary_title" = "Atalho terciário";
+"widget_shortcut_size_title" = "Tamanho do atalho";
+"widget_shortcut_size_10" = "10%";
+"widget_shortcut_size_15" = "15%";
+"widget_shortcut_size_25" = "25%";
+
+"live_activity_title" = "Água hoje";
+"live_activity_missing_value %@" = "Faltam %@";
+"live_activity_last_intake" = "Última ingestão";
+"live_activity_last_intake_empty" = "Nenhuma ingestão ainda";
+"live_activity_last_intake_value %@ %@" = "%1$@ · %2$@";
+"live_activity_remaining" = "Restante";
+"live_activity_goal_celebration" = "Parabéns! Meta diária atingida!";
+"live_activity_private_title" = "Modo privado";
+"live_activity_private_subtitle" = "Detalhes ocultos na Tela Bloqueada.";
+"live_activity_new_day" = "Novo dia!";
+"live_activity_new_day_subtitle" = "Adicione sua primeira água";
+"live_activity_yesterday %@ %@" = "Ontem: %1$@ · %2$@";
+
+"watch_title" = "Adição rápida";
+"watch_add_button" = "Salvar";
+
+"chart_day" = "Dia";
+"chart_amount" = "Quantidade";
+
+"widget_onboarding_subtitle" = "Abra o app para começar";
+"widget_onboarding_short" = "Configure no app";

@@ -1,0 +1,272 @@
+"tab_home" = "Home";
+"tab_history" = "History";
+"tab_settings" = "Settings";
+
+"home_title" = "Today";
+"home_progress_title" = "Daily water";
+"home_goal_reached" = "Complete";
+"home_progress_subtitle" = "Keep it light and steady.";
+"home_progress_value %@ %@" = "%1$@ / %2$@";
+"home_progress_accessibility %@ %@" = "Today %1$@ of %2$@";
+"home_add_amount %@" = "+%@";
+"home_add_amount_accessibility %@" = "Add %@ of water";
+"home_add_percent %d" = "%d%%";
+"home_add_percent_accessibility %d %@" = "Add %1$d percent (%2$@) of your goal";
+"home_add_custom" = "Custom";
+"home_add_other" = "Other";
+"home_add_custom_accessibility %@" = "Choose custom amount, last %@";
+"home_custom_title" = "Custom amount";
+"home_custom_value %@" = "%@";
+"home_entries_button %d" = "Entries (%d)";
+"home_entries_title" = "Today entries";
+"home_entries_empty" = "No entries yet.";
+"home_undo" = "Undo";
+"home_streak_value %d" = "%d day streak";
+"home_entry_amount %@" = "Amount %@";
+"home_entry_amount_stepper %@" = "Amount %@";
+"home_entry_time" = "Time";
+"home_entry_edit_title" = "Edit entry";
+"home_custom_amount_title" = "Custom amount";
+"home_entry_delete" = "Delete entry";
+"home_ring_accessibility_hint" = "Tap to view today's entries";
+
+"entries_period_morning" = "Morning";
+"entries_period_afternoon" = "Afternoon";
+"entries_period_night" = "Night";
+"entries_header_today" = "Today";
+"entries_count %lld" = "^[%lld entry](inflect: true)";
+"entries_header_progress %@ %@" = "%1$@ / %2$@";
+"entries_header_percent %@" = "%@ of goal";
+"entries_synced_health" = "Synced with Health";
+"entries_edit_amount" = "Amount";
+"entries_edit_time" = "Time";
+"entries_edit_delete" = "Delete";
+"entries_delete_confirm" = "Confirm?";
+"entries_delete_confirmation" = "Delete this entry?";
+"entries_empty_title" = "No entries yet";
+"entries_empty_subtitle" = "Add water using the buttons on the home screen";
+
+"insight_peak_hour %d" = "Peak at %d:00";
+"insight_most_active_morning" = "Most active in the morning";
+"insight_most_active_afternoon" = "Most active in the afternoon";
+"insight_most_active_night" = "Most active at night";
+"insight_well_distributed" = "Well distributed today";
+
+"home_greeting_morning" = "Good morning";
+"home_greeting_afternoon" = "Good afternoon";
+"home_greeting_evening" = "Good evening";
+"home_status_on_track" = "On track!";
+"home_status_slightly_behind" = "Almost there!";
+"home_status_behind" = "Time to hydrate!";
+"home_support_default" = "Every sip counts";
+"home_support_halfway" = "You're doing great!";
+"home_support_goal_reached" = "Goal achieved! Well done";
+
+"history_title" = "History";
+"history_weekly_title" = "This week";
+"history_daily_title" = "Daily history";
+"history_day_amount %@" = "%@";
+"history_last_14_days" = "Last 14 days";
+"history_today" = "Today";
+"history_yesterday" = "Yesterday";
+"history_goal_met" = "Goal";
+"history_streak" = "Streak";
+"history_no_entries" = "No entries";
+"history_one_entry" = "1 entry";
+"history_entries_count %lld" = "%lld entries";
+"history_of_goal" = "of goal";
+"history_row_accessibility_hint" = "Tap to view entries";
+"history_weekly_total" = "Total";
+"history_daily_average" = "Daily avg";
+"history_best_day" = "Best:";
+"history_streak_days %lld" = "%lld days";
+"history_weekly_goal %@" = "Weekly goal: %@";
+"history_day_no_entries_title" = "No entries";
+"history_day_no_entries_subtitle" = "No water was logged on this day";
+
+"history_insight_morning_person" = "You drink more in the morning!";
+"history_insight_afternoon_person" = "You drink more in the afternoon!";
+"history_insight_evening_person" = "You drink more at night!";
+"history_insight_consistent" = "Great consistency this week!";
+"history_insight_improving" = "You're improving!";
+"history_insight_needs_more" = "Let's drink more water!";
+"history_insight_great_week" = "Amazing week!";
+
+"settings_title" = "Settings";
+"settings_daily_goal" = "Daily goal";
+"settings_daily_goal_value %@" = "%@";
+"settings_daily_goal_stepper" = "Daily goal stepper";
+"settings_notifications" = "Notifications";
+"settings_notifications_toggle" = "Smart reminders";
+"settings_smart_notifications_title" = "Intelligent notifications";
+"settings_smart_notifications_subtitle" = "Reminders that adapt to your daily progress";
+"settings_smart_notifications_info_accessibility" = "About intelligent notifications";
+"settings_smart_notifications_sheet_title" = "How intelligent notifications work";
+"settings_smart_notifications_sheet_body" = "Intelligent notifications adjust reminders based on how much you have already drunk throughout the day.\n\nInstead of notifying only by time, the app considers your daily goal, the active reminder window, and your current progress.\n\nIf you have already reached the expected amount by that moment, the reminder is automatically silenced.\n\nAlso, if you log water a few minutes before a reminder, we avoid sending a redundant notification right after.\n\nThe goal is to remind you when you really need it, reducing interruptions and making reminders more useful.";
+"settings_reminder_start" = "Start";
+"settings_reminder_end" = "End";
+"settings_reminder_interval_value %@" = "Interval %@";
+"settings_live_activity" = "Live Activity";
+"settings_live_activity_toggle" = "Show on Lock Screen";
+"settings_live_activity_silent_toggle" = "Silent mode on Lock Screen";
+"settings_haptics" = "Haptics";
+"settings_haptics_toggle" = "Haptic feedback";
+"settings_duck" = "Fun";
+"settings_duck_toggle" = "Swimming Duck";
+"settings_duck_description" = "Grow your pond by reaching your daily goal";
+"settings_duck_pond" = "Duck Pond";
+"settings_duck_pond_toggle" = "Show Ducks";
+
+"settings_duck_remaining %d" = "%d more to discover";
+
+// Duck Reward
+"duck_reward_title" = "A duck joined your pond!";
+"duck_reward_title_first" = "Your first duck!";
+"duck_reward_subtitle" = "You reached your goal today";
+"duck_reward_subtitle_first" = "Your pond journey begins";
+"duck_reward_count %d" = "Duck #%d";
+"duck_reward_meet %@" = "Meet %@";
+"duck_reward_settings_hint" = "Manage in Settings";
+
+// Duck Names
+"duck_name_1" = "Sosso";
+"duck_name_2" = "Tati";
+"duck_name_3" = "Will";
+"duck_name_4" = "Iris";
+"duck_name_5" = "Nova";
+"settings_health" = "Health";
+"settings_health_status" = "Status";
+"settings_health_request_access" = "Request Health Access";
+"settings_health_status_connected" = "Connected";
+"settings_health_status_denied" = "Denied";
+"settings_health_status_not_determined" = "Not determined";
+"settings_health_status_unknown" = "Unknown";
+
+"settings_units" = "Units";
+"settings_units_auto" = "Auto";
+"settings_units_ml" = "mL";
+"settings_units_oz" = "fl oz";
+"settings_units_auto_hint %@" = "Based on your region: %@";
+"settings_tip_jar" = "Tip Jar";
+"settings_tip_jar_description" = "If GlassWater helps you stay hydrated, consider leaving a tip! It keeps development flowing.";
+"settings_tip_jar_thank_you" = "Thank you so much! You're amazing!";
+"settings_tip_jar_unavailable" = "Tips are unavailable right now.";
+"settings_tip_jar_supporter" = "Supporter";
+"settings_about" = "About";
+"settings_privacy_policy" = "Privacy Policy";
+"settings_terms" = "Terms of Use";
+"settings_rate_app" = "Rate GlassWater";
+"settings_app_version" = "Version";
+
+"permissions_notifications_denied" = "Notifications are off. Enable in Settings to receive reminders.";
+"permissions_health_denied" = "Health access is off. Enable in Settings to sync intake.";
+"permissions_open_settings" = "Open Settings";
+
+"notification_title" = "Time to drink water";
+"notification_body" = "A small sip keeps the day flowing.";
+"notification_action_percent" = "Add %d%%";
+"notification_action_add %@" = "Add %@";
+"notification_action_custom_amount" = "Add %@";
+"notification_action_custom_saved" = "Add last amount";
+"notification_action_custom_input" = "Add custom amount";
+"notification_action_custom_submit" = "Add";
+"notification_action_custom_placeholder" = "mL";
+
+"notification_title_morning_1" = "Good morning!";
+"notification_title_morning_2" = "Rise and hydrate";
+"notification_title_morning_3" = "Start fresh";
+"notification_title_afternoon_1" = "Stay hydrated";
+"notification_title_afternoon_2" = "Afternoon refresh";
+"notification_title_afternoon_3" = "Keep going";
+"notification_title_evening_1" = "Evening reminder";
+"notification_title_evening_2" = "Wind down with water";
+"notification_title_evening_3" = "One more sip";
+
+"notification_body_low_1" = "Your body needs water to stay energized.";
+"notification_body_low_2" = "A glass of water can make all the difference.";
+"notification_body_low_3" = "Hydration keeps you focused and sharp.";
+"notification_body_quarter_1" = "Great start! Keep the momentum going.";
+"notification_body_quarter_2" = "You're building a healthy habit.";
+"notification_body_quarter_3" = "Nice progress — keep sipping.";
+"notification_body_half_1" = "You're past halfway — a few more sips to go.";
+"notification_body_half_2" = "Over the hill! Your body thanks you.";
+"notification_body_half_3" = "More than half done — finish strong.";
+"notification_body_high_1" = "Almost there! Just a little more.";
+"notification_body_high_2" = "So close to your goal — you've got this.";
+"notification_body_high_3" = "The finish line is in sight!";
+"notification_body_streak_3" = "3 days strong — consistency is key.";
+"notification_body_streak_7" = "A whole week! Don't break the chain.";
+"notification_body_streak_30" = "30-day streak! You're unstoppable.";
+
+"notification_action_snooze" = "Remind me later";
+
+"onboarding_title" = "Welcome to GlassWater";
+"onboarding_subtitle" = "A calm way to keep hydration steady every day.";
+"onboarding_health_title" = "Health sync";
+"onboarding_health_body" = "Connect Health to keep your intake consistent across devices.";
+"onboarding_health_button" = "Connect Health";
+"onboarding_health_connected" = "Connected to Health";
+"onboarding_notifications_title" = "Gentle reminders";
+"onboarding_notifications_body" = "Get subtle nudges when it is time to drink.";
+"onboarding_continue" = "Continue";
+"onboarding_complete_title" = "You're all set!";
+"onboarding_complete_subtitle" = "Your daily hydration ritual starts now.";
+"onboarding_get_started" = "Get Started";
+"onboarding_tap_drop_hint" = "Tap the drop";
+"onboarding_greeting_invitation" = "Let's build a calm hydration rhythm.";
+"onboarding_goal_title" = "Set your daily goal";
+"onboarding_goal_body" = "How much water do you want to drink each day?";
+"onboarding_widget_title" = "Track at a glance";
+"onboarding_widget_body" = "Add the widget to your home screen for quick access.";
+"onboarding_widget_add" = "Add Widget";
+"widget_remaining" = "Remaining";
+
+"common_done" = "Done";
+"common_save" = "Save";
+"common_back" = "Back";
+"common_delete" = "Delete";
+
+"intent_add_water_title" = "Add Water";
+"intent_add_water_description" = "Log a water intake quickly.";
+"intent_add_water_amount_title" = "Amount (mL)";
+"intent_add_water_source_title" = "Source";
+"intent_add_water_source_app" = "App";
+"intent_add_water_source_widget" = "Widget";
+"intent_add_water_source_live_activity" = "Live Activity";
+"intent_add_water_source_watch" = "Watch";
+"intent_add_water_source_notification" = "Notification";
+"intent_add_water_source_background" = "Background";
+"intent_add_water_source_health" = "Health";
+"intent_add_water_source_siri" = "Siri";
+"intent_add_water_source_unknown" = "Unknown";
+"app_intent_add_water_phrase" = "Add water";
+"app_intent_add_water_short_title" = "Add water";
+
+"widget_title" = "Water";
+"widget_description" = "Daily intake at a glance.";
+"widget_last_intake" = "Last";
+"widget_last_intake_empty" = "No entries";
+"widget_last_intake_value %@ %@" = "%@ at %@";
+"widget_quick_add" = "Quick add";
+"widget_status_complete" = "Goal reached!";
+"widget_status_almost" = "Almost there!";
+"widget_status_halfway" = "Halfway there";
+"widget_status_keep_going" = "Keep going!";
+"widget_status_start" = "Let's start!";
+
+"live_activity_title" = "Water today";
+
+"watch_title" = "Quick Add";
+"watch_add_button" = "Save";
+
+"chart_day" = "Day";
+"chart_amount" = "Amount";
+"chart_tap_hint" = "Tap a bar for details";
+"chart_accessibility_hint" = "Tap to select an hour and see details";
+"chart_accessibility_no_data" = "Chart with no data";
+"chart_accessibility_summary %@ %lld %lld %@" = "Total %1$@ in %2$lld hours, peak at %3$lldh with %4$@";
+"chart_accessibility_total %@" = "Total of %@";
+
+// MARK: - Settings Footer
+"settings_footer_made_with_love" = "Made with love";
+"settings_footer_inspired_by_music" = "Inspired by music";

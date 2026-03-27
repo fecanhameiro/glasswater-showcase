@@ -1,0 +1,84 @@
+"tab_home" = "Accueil";
+"tab_history" = "Historique";
+"tab_settings" = "Réglages";
+
+"home_title" = "Aujourd'hui";
+"home_progress_title" = "Eau quotidienne";
+"home_goal_reached" = "Terminé";
+"home_progress_subtitle" = "Restez léger et régulier.";
+"home_progress_value %@ %@" = "%1$@ / %2$@";
+"home_add_amount %@" = "+%@";
+"home_add_amount_accessibility %@" = "Ajouter %@ d'eau";
+"home_add_percent %d" = "%d%%";
+
+"history_title" = "Historique";
+"history_weekly_title" = "Vue hebdomadaire";
+"history_daily_title" = "Totaux quotidiens";
+"history_day_amount %@" = "%@";
+
+"settings_title" = "Réglages";
+"settings_daily_goal" = "Objectif quotidien";
+"settings_daily_goal_value %@" = "%@";
+"settings_daily_goal_stepper" = "Réglage de l’objectif quotidien";
+"settings_notifications" = "Notifications";
+"settings_notifications_toggle" = "Rappels intelligents";
+"settings_health" = "Santé";
+"settings_health_status" = "Statut";
+"settings_health_request_access" = "Demander l’accès à Santé";
+"settings_health_status_connected" = "Connecté";
+"settings_health_status_denied" = "Refusé";
+"settings_health_status_not_determined" = "Non déterminé";
+"settings_health_status_unknown" = "Inconnu";
+
+"notification_title" = "Il est temps de boire de l’eau";
+"notification_body" = "Une petite gorgée fait avancer la journée.";
+
+"intent_add_water_title" = "Ajouter de l’eau";
+"intent_add_water_description" = "Enregistrez rapidement une prise d’eau.";
+"intent_add_water_amount_title" = "Quantité (mL)";
+"app_intent_add_water_phrase" = "Ajouter de l’eau";
+"app_intent_add_water_short_title" = "Ajouter de l’eau";
+
+"widget_title" = "Eau";
+"widget_description" = "Apport quotidien en un coup d'œil.";
+"widget_remaining" = "Restant";
+"widget_last_intake" = "Dernier";
+"widget_last_intake_empty" = "Aucune entrée";
+"widget_last_intake_value %@ %@" = "%1$@ · %2$@";
+"widget_quick_add" = "Ajouter";
+"widget_status_complete" = "Objectif atteint !";
+"widget_status_almost" = "Presque là !";
+"widget_status_halfway" = "À mi-chemin";
+"widget_status_keep_going" = "Continuez !";
+"widget_status_start" = "C'est parti !";
+"widget_configuration_title" = "Raccourcis du widget";
+"widget_configuration_description" = "Choisissez les tailles de raccourci affichées dans le widget.";
+"widget_shortcut_primary_title" = "Raccourci principal";
+"widget_shortcut_secondary_title" = "Raccourci secondaire";
+"widget_shortcut_tertiary_title" = "Raccourci tertiaire";
+"widget_shortcut_size_title" = "Taille du raccourci";
+"widget_shortcut_size_10" = "10%";
+"widget_shortcut_size_15" = "15%";
+"widget_shortcut_size_25" = "25%";
+
+"live_activity_title" = "Eau d’aujourd’hui";
+"live_activity_missing_value %@" = "Il manque %@";
+"live_activity_last_intake" = "Dernière prise";
+"live_activity_last_intake_empty" = "Aucune prise pour l’instant";
+"live_activity_last_intake_value %@ %@" = "%1$@ · %2$@";
+"live_activity_remaining" = "Restant";
+"live_activity_goal_celebration" = "Bravo ! Objectif quotidien atteint !";
+"live_activity_private_title" = "Mode privé";
+"live_activity_private_subtitle" = "Les détails sont masqués sur l'écran verrouillé.";
+"live_activity_new_day" = "Nouveau jour !";
+"live_activity_new_day_subtitle" = "Ajoutez votre première eau";
+"live_activity_yesterday %@ %@" = "Hier : %1$@ · %2$@";
+
+"watch_title" = "Ajout rapide";
+"watch_add_button" = "Enregistrer";
+
+"chart_day" = "Jour";
+"chart_amount" = "Quantité";
+
+"widget_onboarding_subtitle" = "Ouvrez l'app pour commencer";
+"widget_onboarding_short" = "Configurez dans l'app";

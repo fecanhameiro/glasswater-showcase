@@ -1,0 +1,84 @@
+"tab_home" = "Inicio";
+"tab_history" = "Historial";
+"tab_settings" = "Ajustes";
+
+"home_title" = "Hoy";
+"home_progress_title" = "Agua diaria";
+"home_goal_reached" = "Completado";
+"home_progress_subtitle" = "Suave y constante.";
+"home_progress_value %@ %@" = "%1$@ / %2$@";
+"home_add_amount %@" = "+%@";
+"home_add_amount_accessibility %@" = "Añadir %@ de agua";
+"home_add_percent %d" = "%d%%";
+
+"history_title" = "Historial";
+"history_weekly_title" = "Vista semanal";
+"history_daily_title" = "Totales diarios";
+"history_day_amount %@" = "%@";
+
+"settings_title" = "Ajustes";
+"settings_daily_goal" = "Meta diaria";
+"settings_daily_goal_value %@" = "%@";
+"settings_daily_goal_stepper" = "Ajuste de meta diaria";
+"settings_notifications" = "Notificaciones";
+"settings_notifications_toggle" = "Recordatorios inteligentes";
+"settings_health" = "Salud";
+"settings_health_status" = "Estado";
+"settings_health_request_access" = "Solicitar acceso a Salud";
+"settings_health_status_connected" = "Conectado";
+"settings_health_status_denied" = "Denegado";
+"settings_health_status_not_determined" = "No determinado";
+"settings_health_status_unknown" = "Desconocido";
+
+"notification_title" = "Hora de beber agua";
+"notification_body" = "Un pequeño sorbo mantiene el día en movimiento.";
+
+"intent_add_water_title" = "Añadir agua";
+"intent_add_water_description" = "Registra una ingesta de agua rápidamente.";
+"intent_add_water_amount_title" = "Cantidad (mL)";
+"app_intent_add_water_phrase" = "Añadir agua";
+"app_intent_add_water_short_title" = "Añadir agua";
+
+"widget_title" = "Agua";
+"widget_description" = "Ingesta diaria de un vistazo.";
+"widget_remaining" = "Restante";
+"widget_last_intake" = "Último";
+"widget_last_intake_empty" = "Sin registro";
+"widget_last_intake_value %@ %@" = "%1$@ · %2$@";
+"widget_quick_add" = "Añadir";
+"widget_status_complete" = "¡Meta alcanzada!";
+"widget_status_almost" = "¡Casi ahí!";
+"widget_status_halfway" = "A la mitad";
+"widget_status_keep_going" = "¡Sigue así!";
+"widget_status_start" = "¡Empecemos!";
+"widget_configuration_title" = "Atajos del widget";
+"widget_configuration_description" = "Elige los tamaños de atajo que se muestran en el widget.";
+"widget_shortcut_primary_title" = "Atajo principal";
+"widget_shortcut_secondary_title" = "Atajo secundario";
+"widget_shortcut_tertiary_title" = "Atajo terciario";
+"widget_shortcut_size_title" = "Tamaño del atajo";
+"widget_shortcut_size_10" = "10%";
+"widget_shortcut_size_15" = "15%";
+"widget_shortcut_size_25" = "25%";
+
+"live_activity_title" = "Agua de hoy";
+"live_activity_missing_value %@" = "Faltan %@";
+"live_activity_last_intake" = "Última ingesta";
+"live_activity_last_intake_empty" = "Aún sin ingestas";
+"live_activity_last_intake_value %@ %@" = "%1$@ · %2$@";
+"live_activity_remaining" = "Restante";
+"live_activity_goal_celebration" = "¡Genial! ¡Meta diaria alcanzada!";
+"live_activity_private_title" = "Modo privado";
+"live_activity_private_subtitle" = "Los detalles están ocultos en la pantalla de bloqueo.";
+"live_activity_new_day" = "¡Nuevo día!";
+"live_activity_new_day_subtitle" = "Añade tu primera agua";
+"live_activity_yesterday %@ %@" = "Ayer: %1$@ · %2$@";
+
+"watch_title" = "Añadir rápido";
+"watch_add_button" = "Guardar";
+
+"chart_day" = "Día";
+"chart_amount" = "Cantidad";
+
+"widget_onboarding_subtitle" = "Abre la app para comenzar";
+"widget_onboarding_short" = "Configura en la app";

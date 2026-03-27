@@ -1,0 +1,3 @@
+"NSHealthShareUsageDescription" = "GlassWater usa los datos de Salud para leer tu ingesta de agua.";
+"NSHealthUpdateUsageDescription" = "GlassWater usa los datos de Salud para guardar tu ingesta de agua.";
+"NSSiriUsageDescription" = "GlassWater usa Siri para registrar tu ingesta de agua por voz.";

@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "an-ultra-clean-minimalist-app-icon-featu_ijsfQUHuSN6lsCRmsnfxUQ_WpVKvNRfQWihdGKf9sRuFA_sd.jpeg",
+      "idiom" : "universal",
+      "platform" : "watchos",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

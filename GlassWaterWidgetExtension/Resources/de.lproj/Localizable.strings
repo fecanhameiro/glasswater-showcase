@@ -1,0 +1,84 @@
+"tab_home" = "Start";
+"tab_history" = "Verlauf";
+"tab_settings" = "Einstellungen";
+
+"home_title" = "Heute";
+"home_progress_title" = "Tägliches Wasser";
+"home_goal_reached" = "Abgeschlossen";
+"home_progress_subtitle" = "Leicht und stetig.";
+"home_progress_value %@ %@" = "%1$@ / %2$@";
+"home_add_amount %@" = "+%@";
+"home_add_amount_accessibility %@" = "%@ Wasser hinzufügen";
+"home_add_percent %d" = "%d%%";
+
+"history_title" = "Verlauf";
+"history_weekly_title" = "Wochenübersicht";
+"history_daily_title" = "Tagesgesamt";
+"history_day_amount %@" = "%@";
+
+"settings_title" = "Einstellungen";
+"settings_daily_goal" = "Tagesziel";
+"settings_daily_goal_value %@" = "%@";
+"settings_daily_goal_stepper" = "Tagesziel anpassen";
+"settings_notifications" = "Mitteilungen";
+"settings_notifications_toggle" = "Intelligente Erinnerungen";
+"settings_health" = "Health";
+"settings_health_status" = "Status";
+"settings_health_request_access" = "Health-Zugriff anfordern";
+"settings_health_status_connected" = "Verbunden";
+"settings_health_status_denied" = "Abgelehnt";
+"settings_health_status_not_determined" = "Nicht festgelegt";
+"settings_health_status_unknown" = "Unbekannt";
+
+"notification_title" = "Zeit, Wasser zu trinken";
+"notification_body" = "Ein kleiner Schluck hält den Tag in Schwung.";
+
+"intent_add_water_title" = "Wasser hinzufügen";
+"intent_add_water_description" = "Wasseraufnahme schnell erfassen.";
+"intent_add_water_amount_title" = "Menge (mL)";
+"app_intent_add_water_phrase" = "Wasser hinzufügen";
+"app_intent_add_water_short_title" = "Wasser hinzufügen";
+
+"widget_title" = "Wasser";
+"widget_description" = "Tägliche Aufnahme auf einen Blick.";
+"widget_remaining" = "Verbleibend";
+"widget_last_intake" = "Letzte";
+"widget_last_intake_empty" = "Kein Eintrag";
+"widget_last_intake_value %@ %@" = "%1$@ · %2$@";
+"widget_quick_add" = "Hinzufügen";
+"widget_status_complete" = "Ziel erreicht!";
+"widget_status_almost" = "Fast geschafft!";
+"widget_status_halfway" = "Halbzeit";
+"widget_status_keep_going" = "Weiter so!";
+"widget_status_start" = "Los geht's!";
+"widget_configuration_title" = "Widget-Kurzbefehle";
+"widget_configuration_description" = "Wähle die Shortcut-Größen im Widget.";
+"widget_shortcut_primary_title" = "Primärer Kurzbefehl";
+"widget_shortcut_secondary_title" = "Sekundärer Kurzbefehl";
+"widget_shortcut_tertiary_title" = "Tertiärer Kurzbefehl";
+"widget_shortcut_size_title" = "Kurzbefehlgröße";
+"widget_shortcut_size_10" = "10%";
+"widget_shortcut_size_15" = "15%";
+"widget_shortcut_size_25" = "25%";
+
+"live_activity_title" = "Wasser heute";
+"live_activity_missing_value %@" = "Es fehlen %@";
+"live_activity_last_intake" = "Letzte Aufnahme";
+"live_activity_last_intake_empty" = "Noch keine Aufnahme";
+"live_activity_last_intake_value %@ %@" = "%1$@ · %2$@";
+"live_activity_remaining" = "Verbleibend";
+"live_activity_goal_celebration" = "Super! Tagesziel erreicht!";
+"live_activity_private_title" = "Privater Modus";
+"live_activity_private_subtitle" = "Details werden auf dem Sperrbildschirm verborgen.";
+"live_activity_new_day" = "Neuer Tag!";
+"live_activity_new_day_subtitle" = "Füge dein erstes Wasser hinzu";
+"live_activity_yesterday %@ %@" = "Gestern: %1$@ · %2$@";
+
+"watch_title" = "Schnell hinzufügen";
+"watch_add_button" = "Speichern";
+
+"chart_day" = "Tag";
+"chart_amount" = "Menge";
+
+"widget_onboarding_subtitle" = "Öffne die App, um loszulegen";
+"widget_onboarding_short" = "In der App einrichten";

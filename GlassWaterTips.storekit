@@ -1,0 +1,222 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "47A0BF0D",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "tip_droplet_001",
+      "localizations" : [
+        {
+          "description" : "A small tip to support GlassWater development.",
+          "displayName" : "Droplet",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Uma pequena gorjeta para apoiar o desenvolvimento do GlassWater.",
+          "displayName" : "Gotinha",
+          "locale" : "pt_BR"
+        },
+        {
+          "description" : "Una pequeña propina para apoyar el desarrollo de GlassWater.",
+          "displayName" : "Gotita",
+          "locale" : "es_ES"
+        },
+        {
+          "description" : "Un petit pourboire pour soutenir le développement de GlassWater.",
+          "displayName" : "Gouttelette",
+          "locale" : "fr"
+        },
+        {
+          "description" : "Ein kleines Trinkgeld zur Unterstützung der GlassWater-Entwicklung.",
+          "displayName" : "Tröpfchen",
+          "locale" : "de"
+        },
+        {
+          "description" : "Una piccola mancia per supportare lo sviluppo di GlassWater.",
+          "displayName" : "Gocciolina",
+          "locale" : "it"
+        },
+        {
+          "description" : "Небольшие чаевые для поддержки разработки GlassWater.",
+          "displayName" : "Капелька",
+          "locale" : "ru"
+        }
+      ],
+      "productID" : "com.glasswater.tip.droplet",
+      "referenceName" : "Tip - Droplet",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "tip_glass_002",
+      "localizations" : [
+        {
+          "description" : "A refreshing tip to support GlassWater development.",
+          "displayName" : "Glass of Water",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Uma gorjeta refrescante para apoiar o desenvolvimento do GlassWater.",
+          "displayName" : "Copo d'Água",
+          "locale" : "pt_BR"
+        },
+        {
+          "description" : "Una propina refrescante para apoyar el desarrollo de GlassWater.",
+          "displayName" : "Vaso de Agua",
+          "locale" : "es_ES"
+        },
+        {
+          "description" : "Un pourboire rafraîchissant pour soutenir le développement de GlassWater.",
+          "displayName" : "Verre d'Eau",
+          "locale" : "fr"
+        },
+        {
+          "description" : "Ein erfrischendes Trinkgeld zur Unterstützung der GlassWater-Entwicklung.",
+          "displayName" : "Glas Wasser",
+          "locale" : "de"
+        },
+        {
+          "description" : "Una mancia rinfrescante per supportare lo sviluppo di GlassWater.",
+          "displayName" : "Bicchiere d'Acqua",
+          "locale" : "it"
+        },
+        {
+          "description" : "Освежающие чаевые для поддержки разработки GlassWater.",
+          "displayName" : "Стакан воды",
+          "locale" : "ru"
+        }
+      ],
+      "productID" : "com.glasswater.tip.glass",
+      "referenceName" : "Tip - Glass of Water",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "tip_wave_003",
+      "localizations" : [
+        {
+          "description" : "A generous tip to support GlassWater development.",
+          "displayName" : "Ocean Wave",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Uma gorjeta generosa para apoiar o desenvolvimento do GlassWater.",
+          "displayName" : "Onda do Mar",
+          "locale" : "pt_BR"
+        },
+        {
+          "description" : "Una propina generosa para apoyar el desarrollo de GlassWater.",
+          "displayName" : "Ola del Mar",
+          "locale" : "es_ES"
+        },
+        {
+          "description" : "Un pourboire généreux pour soutenir le développement de GlassWater.",
+          "displayName" : "Vague de l'Océan",
+          "locale" : "fr"
+        },
+        {
+          "description" : "Ein großzügiges Trinkgeld zur Unterstützung der GlassWater-Entwicklung.",
+          "displayName" : "Meereswelle",
+          "locale" : "de"
+        },
+        {
+          "description" : "Una mancia generosa per supportare lo sviluppo di GlassWater.",
+          "displayName" : "Onda del Mare",
+          "locale" : "it"
+        },
+        {
+          "description" : "Щедрые чаевые для поддержки разработки GlassWater.",
+          "displayName" : "Морская волна",
+          "locale" : "ru"
+        }
+      ],
+      "productID" : "com.glasswater.tip.wave",
+      "referenceName" : "Tip - Ocean Wave",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "tip_waterfall_004",
+      "localizations" : [
+        {
+          "description" : "An incredibly generous tip to support GlassWater development.",
+          "displayName" : "Waterfall",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Uma gorjeta incrivelmente generosa para apoiar o desenvolvimento do GlassWater.",
+          "displayName" : "Cachoeira",
+          "locale" : "pt_BR"
+        },
+        {
+          "description" : "Una propina increíblemente generosa para apoyar el desarrollo de GlassWater.",
+          "displayName" : "Cascada",
+          "locale" : "es_ES"
+        },
+        {
+          "description" : "Un pourboire incroyablement généreux pour soutenir le développement de GlassWater.",
+          "displayName" : "Cascade",
+          "locale" : "fr"
+        },
+        {
+          "description" : "Ein unglaublich großzügiges Trinkgeld zur Unterstützung der GlassWater-Entwicklung.",
+          "displayName" : "Wasserfall",
+          "locale" : "de"
+        },
+        {
+          "description" : "Una mancia incredibilmente generosa per supportare lo sviluppo di GlassWater.",
+          "displayName" : "Cascata",
+          "locale" : "it"
+        },
+        {
+          "description" : "Невероятно щедрые чаевые для поддержки разработки GlassWater.",
+          "displayName" : "Водопад",
+          "locale" : "ru"
+        }
+      ],
+      "productID" : "com.glasswater.tip.waterfall",
+      "referenceName" : "Tip - Waterfall",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6757977655",
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_developerTeamID" : "YOUR_TEAM_ID",
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 795636429.08422506,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

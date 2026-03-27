@@ -1,0 +1,1133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A8F20602F6C72CA0052B34F /* GlassWaterTips.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F205F2F6C72CA0052B34F /* GlassWaterTips.storekit */; };
+		5A8F20612F6C72CA0052B34F /* GlassWaterTips.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F205F2F6C72CA0052B34F /* GlassWaterTips.storekit */; };
+		5A8F20622F6C72CA0052B34F /* GlassWaterTips.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F205F2F6C72CA0052B34F /* GlassWaterTips.storekit */; };
+		5A956DBA2F36BF9B00A30574 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFC03A52F1D46E0005F996C /* WidgetKit.framework */; };
+		5A956DBB2F36BF9B00A30574 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFC03A72F1D46E0005F996C /* SwiftUI.framework */; };
+		5A956DCA2F36BF9C00A30574 /* GlassWaterWatchWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5A956DB92F36BF9B00A30574 /* GlassWaterWatchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5AD5F8182F1D8AB90011CAA6 /* GlassWaterWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5AD5F80E2F1D8AB70011CAA6 /* GlassWaterWatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5AFC03A62F1D46E0005F996C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFC03A52F1D46E0005F996C /* WidgetKit.framework */; };
+		5AFC03A82F1D46E0005F996C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFC03A72F1D46E0005F996C /* SwiftUI.framework */; };
+		5AFC03B92F1D46E2005F996C /* GlassWaterWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5AFC03A32F1D46E0005F996C /* GlassWaterWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5AFD01012F1D1200005F996C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5AFD02012F1D1200005F996C /* FirebaseCrashlytics */; };
+		5AFD01022F1D1200005F996C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5AFD02022F1D1200005F996C /* FirebaseAnalytics */; };
+		5AFD01032F1D1200005F996C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5AFD02032F1D1200005F996C /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A00C33C2F368EB600AD47C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFCFD792F1D0788005F996C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFCFD802F1D0788005F996C;
+			remoteInfo = GlassWater;
+		};
+		5A956DC82F36BF9C00A30574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFCFD792F1D0788005F996C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A956DB82F36BF9B00A30574;
+			remoteInfo = GlassWaterWatchWidgetExtensionExtension;
+		};
+		5AD5F8162F1D8AB90011CAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFCFD792F1D0788005F996C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD5F80D2F1D8AB70011CAA6;
+			remoteInfo = "GlassWaterWatch Watch App";
+		};
+		5AFC03B72F1D46E2005F996C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFCFD792F1D0788005F996C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFC03A22F1D46E0005F996C;
+			remoteInfo = GlassWaterWidgetExtensionExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A956DCF2F36BF9C00A30574 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5A956DCA2F36BF9C00A30574 /* GlassWaterWatchWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD5F81C2F1D8AB90011CAA6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5AD5F8182F1D8AB90011CAA6 /* GlassWaterWatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFC03BA2F1D46E2005F996C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5AFC03B92F1D46E2005F996C /* GlassWaterWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A00C3382F368EB600AD47C2 /* GlassWaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassWaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8F205F2F6C72CA0052B34F /* GlassWaterTips.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = GlassWaterTips.storekit; sourceTree = "<group>"; };
+		5A956DB92F36BF9B00A30574 /* GlassWaterWatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GlassWaterWatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD5F80E2F1D8AB70011CAA6 /* GlassWaterWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassWaterWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFC03A32F1D46E0005F996C /* GlassWaterWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GlassWaterWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFC03A52F1D46E0005F996C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		5AFC03A72F1D46E0005F996C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		5AFC03BF2F1D472D005F996C /* GlassWaterWidgetExtensionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GlassWaterWidgetExtensionExtension.entitlements; sourceTree = "<group>"; };
+		5AFCFD812F1D0788005F996C /* GlassWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5A956DCE2F36BF9C00A30574 /* Exceptions for "GlassWaterWatchWidgetExtension" folder in "GlassWaterWatchWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5A956DB82F36BF9B00A30574 /* GlassWaterWatchWidgetExtension */;
+		};
+		5A956DD52F36C18E00A30574 /* Exceptions for "GlassWaterWatchWidgetExtension" folder in "GlassWaterWatchApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Complications/WatchComplicationProvider.swift,
+				Complications/WatchComplicationViews.swift,
+			);
+			target = 5AD5F80D2F1D8AB70011CAA6 /* GlassWaterWatchApp */;
+		};
+		5AD5F81F2F1D8B080011CAA6 /* Exceptions for "GlassWater" folder in "GlassWaterWatchApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Domain/HealthAccessStatus.swift,
+				"Extensions/Date+Helpers.swift",
+				Services/HealthKitService.swift,
+			);
+			target = 5AD5F80D2F1D8AB70011CAA6 /* GlassWaterWatchApp */;
+		};
+		5AD5F8222F1D8B320011CAA6 /* Exceptions for "Shared" folder in "GlassWaterWatchApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AnalyticsEventQueue.swift,
+				AppConstants.swift,
+				AppLog.swift,
+				AppLogFile.swift,
+				HydrationChangeNotifier.swift,
+				HydrationSnapshot.swift,
+				HydrationSnapshotStore.swift,
+				QuickAddOptions.swift,
+				SyncLog.swift,
+				VolumeFormatters.swift,
+				WatchCommand.swift,
+				WatchState.swift,
+			);
+			target = 5AD5F80D2F1D8AB70011CAA6 /* GlassWaterWatchApp */;
+		};
+		5AD5F8232F1D8B320011CAA6 /* Exceptions for "GlassWater" folder in "GlassWater" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5AFCFD802F1D0788005F996C /* GlassWater */;
+		};
+		5AFC03BD2F1D46E2005F996C /* Exceptions for "GlassWaterWidgetExtension" folder in "GlassWaterWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5AFC03A22F1D46E0005F996C /* GlassWaterWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5A00C3392F368EB600AD47C2 /* GlassWaterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GlassWaterTests;
+			sourceTree = "<group>";
+		};
+		5A956DBC2F36BF9B00A30574 /* GlassWaterWatchWidgetExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5A956DD52F36C18E00A30574 /* Exceptions for "GlassWaterWatchWidgetExtension" folder in "GlassWaterWatchApp" target */,
+				5A956DCE2F36BF9C00A30574 /* Exceptions for "GlassWaterWatchWidgetExtension" folder in "GlassWaterWatchWidgetExtension" target */,
+			);
+			path = GlassWaterWatchWidgetExtension;
+			sourceTree = "<group>";
+		};
+		5AD5F80F2F1D8AB70011CAA6 /* GlassWaterWatchApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GlassWaterWatchApp;
+			sourceTree = "<group>";
+		};
+		5AFC03A92F1D46E0005F996C /* GlassWaterWidgetExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5AFC03BD2F1D46E2005F996C /* Exceptions for "GlassWaterWidgetExtension" folder in "GlassWaterWidgetExtension" target */,
+			);
+			path = GlassWaterWidgetExtension;
+			sourceTree = "<group>";
+		};
+		5AFCFD832F1D0788005F996C /* GlassWater */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5AD5F8232F1D8B320011CAA6 /* Exceptions for "GlassWater" folder in "GlassWater" target */,
+				5AD5F81F2F1D8B080011CAA6 /* Exceptions for "GlassWater" folder in "GlassWaterWatchApp" target */,
+			);
+			path = GlassWater;
+			sourceTree = "<group>";
+		};
+		D2FFFAE0DD9845A1A6AABDA2 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5AD5F8222F1D8B320011CAA6 /* Exceptions for "Shared" folder in "GlassWaterWatchApp" target */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A00C3352F368EB600AD47C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A956DB62F36BF9B00A30574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A956DBB2F36BF9B00A30574 /* SwiftUI.framework in Frameworks */,
+				5A956DBA2F36BF9B00A30574 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD5F80B2F1D8AB70011CAA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFC03A02F1D46E0005F996C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFC03A82F1D46E0005F996C /* SwiftUI.framework in Frameworks */,
+				5AFC03A62F1D46E0005F996C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFCFD7E2F1D0788005F996C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFD01012F1D1200005F996C /* FirebaseCrashlytics in Frameworks */,
+				5AFD01022F1D1200005F996C /* FirebaseAnalytics in Frameworks */,
+				5AFD01032F1D1200005F996C /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AFC03A42F1D46E0005F996C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AFC03A52F1D46E0005F996C /* WidgetKit.framework */,
+				5AFC03A72F1D46E0005F996C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AFCFD782F1D0788005F996C = {
+			isa = PBXGroup;
+			children = (
+				5A8F205F2F6C72CA0052B34F /* GlassWaterTips.storekit */,
+				5AFC03BF2F1D472D005F996C /* GlassWaterWidgetExtensionExtension.entitlements */,
+				5AFCFD832F1D0788005F996C /* GlassWater */,
+				D2FFFAE0DD9845A1A6AABDA2 /* Shared */,
+				5AFC03A92F1D46E0005F996C /* GlassWaterWidgetExtension */,
+				5AD5F80F2F1D8AB70011CAA6 /* GlassWaterWatchApp */,
+				5A00C3392F368EB600AD47C2 /* GlassWaterTests */,
+				5A956DBC2F36BF9B00A30574 /* GlassWaterWatchWidgetExtension */,
+				5AFC03A42F1D46E0005F996C /* Frameworks */,
+				5AFCFD822F1D0788005F996C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AFCFD822F1D0788005F996C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AFCFD812F1D0788005F996C /* GlassWater.app */,
+				5AFC03A32F1D46E0005F996C /* GlassWaterWidgetExtension.appex */,
+				5AD5F80E2F1D8AB70011CAA6 /* GlassWaterWatchApp.app */,
+				5A00C3382F368EB600AD47C2 /* GlassWaterTests.xctest */,
+				5A956DB92F36BF9B00A30574 /* GlassWaterWatchWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A00C3372F368EB600AD47C2 /* GlassWaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A00C3402F368EB600AD47C2 /* Build configuration list for PBXNativeTarget "GlassWaterTests" */;
+			buildPhases = (
+				5A00C3342F368EB600AD47C2 /* Sources */,
+				5A00C3352F368EB600AD47C2 /* Frameworks */,
+				5A00C3362F368EB600AD47C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A00C33D2F368EB600AD47C2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A00C3392F368EB600AD47C2 /* GlassWaterTests */,
+			);
+			name = GlassWaterTests;
+			packageProductDependencies = (
+			);
+			productName = GlassWaterTests;
+			productReference = 5A00C3382F368EB600AD47C2 /* GlassWaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A956DB82F36BF9B00A30574 /* GlassWaterWatchWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A956DCB2F36BF9C00A30574 /* Build configuration list for PBXNativeTarget "GlassWaterWatchWidgetExtension" */;
+			buildPhases = (
+				5A956DB52F36BF9B00A30574 /* Sources */,
+				5A956DB62F36BF9B00A30574 /* Frameworks */,
+				5A956DB72F36BF9B00A30574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5A956DBC2F36BF9B00A30574 /* GlassWaterWatchWidgetExtension */,
+				D2FFFAE0DD9845A1A6AABDA2 /* Shared */,
+			);
+			name = GlassWaterWatchWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = GlassWaterWatchWidgetExtensionExtension;
+			productReference = 5A956DB92F36BF9B00A30574 /* GlassWaterWatchWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5AD5F80D2F1D8AB70011CAA6 /* GlassWaterWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD5F8192F1D8AB90011CAA6 /* Build configuration list for PBXNativeTarget "GlassWaterWatchApp" */;
+			buildPhases = (
+				5AD5F80A2F1D8AB70011CAA6 /* Sources */,
+				5AD5F80B2F1D8AB70011CAA6 /* Frameworks */,
+				5AD5F80C2F1D8AB70011CAA6 /* Resources */,
+				5A956DCF2F36BF9C00A30574 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A956DC92F36BF9C00A30574 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5AD5F80F2F1D8AB70011CAA6 /* GlassWaterWatchApp */,
+			);
+			name = GlassWaterWatchApp;
+			packageProductDependencies = (
+			);
+			productName = "GlassWaterWatch Watch App";
+			productReference = 5AD5F80E2F1D8AB70011CAA6 /* GlassWaterWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AFC03A22F1D46E0005F996C /* GlassWaterWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFC03BE2F1D46E2005F996C /* Build configuration list for PBXNativeTarget "GlassWaterWidgetExtension" */;
+			buildPhases = (
+				5AFC039F2F1D46E0005F996C /* Sources */,
+				5AFC03A02F1D46E0005F996C /* Frameworks */,
+				5AFC03A12F1D46E0005F996C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5AFC03A92F1D46E0005F996C /* GlassWaterWidgetExtension */,
+				D2FFFAE0DD9845A1A6AABDA2 /* Shared */,
+			);
+			name = GlassWaterWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = GlassWaterWidgetExtensionExtension;
+			productReference = 5AFC03A32F1D46E0005F996C /* GlassWaterWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5AFCFD802F1D0788005F996C /* GlassWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFCFD8C2F1D0789005F996C /* Build configuration list for PBXNativeTarget "GlassWater" */;
+			buildPhases = (
+				5AFCFD7D2F1D0788005F996C /* Sources */,
+				5AFCFD7E2F1D0788005F996C /* Frameworks */,
+				5AFCFD7F2F1D0788005F996C /* Resources */,
+				5AFC03BA2F1D46E2005F996C /* Embed Foundation Extensions */,
+				5AD5F81C2F1D8AB90011CAA6 /* Embed Watch Content */,
+				5AFD04002F1D1200005F996C /* Crashlytics */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFC03B82F1D46E2005F996C /* PBXTargetDependency */,
+				5AD5F8172F1D8AB90011CAA6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5AFCFD832F1D0788005F996C /* GlassWater */,
+				D2FFFAE0DD9845A1A6AABDA2 /* Shared */,
+			);
+			name = GlassWater;
+			packageProductDependencies = (
+				5AFD02012F1D1200005F996C /* FirebaseCrashlytics */,
+				5AFD02022F1D1200005F996C /* FirebaseAnalytics */,
+				5AFD02032F1D1200005F996C /* FirebaseFirestore */,
+			);
+			productName = GlassWater;
+			productReference = 5AFCFD812F1D0788005F996C /* GlassWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AFCFD792F1D0788005F996C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					5A00C3372F368EB600AD47C2 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 5AFCFD802F1D0788005F996C;
+					};
+					5A956DB82F36BF9B00A30574 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					5AD5F80D2F1D8AB70011CAA6 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					5AFC03A22F1D46E0005F996C = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					5AFCFD802F1D0788005F996C = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 5AFCFD7C2F1D0788005F996C /* Build configuration list for PBXProject "GlassWater" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				pt,
+				it,
+				es,
+				fr,
+				de,
+				Base,
+				ru,
+			);
+			mainGroup = 5AFCFD782F1D0788005F996C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5AFD03002F1D1200005F996C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5AFCFD822F1D0788005F996C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AFCFD802F1D0788005F996C /* GlassWater */,
+				5AFC03A22F1D46E0005F996C /* GlassWaterWidgetExtension */,
+				5AD5F80D2F1D8AB70011CAA6 /* GlassWaterWatchApp */,
+				5A00C3372F368EB600AD47C2 /* GlassWaterTests */,
+				5A956DB82F36BF9B00A30574 /* GlassWaterWatchWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A00C3362F368EB600AD47C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A956DB72F36BF9B00A30574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8F20612F6C72CA0052B34F /* GlassWaterTips.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD5F80C2F1D8AB70011CAA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFC03A12F1D46E0005F996C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8F20602F6C72CA0052B34F /* GlassWaterTips.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFCFD7F2F1D0788005F996C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8F20622F6C72CA0052B34F /* GlassWaterTips.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AFD04002F1D1200005F996C /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/GlassWater/GoogleService-Info.plist",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+			);
+			name = Crashlytics;
+			outputPaths = (
+				"${DERIVED_FILE_DIR}/CrashlyticsUploadSymbols",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\" -gsp \"${SRCROOT}/GlassWater/GoogleService-Info.plist\"\n\ntouch \"${DERIVED_FILE_DIR}/CrashlyticsUploadSymbols\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A00C3342F368EB600AD47C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A956DB52F36BF9B00A30574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD5F80A2F1D8AB70011CAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFC039F2F1D46E0005F996C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFCFD7D2F1D0788005F996C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A00C33D2F368EB600AD47C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AFCFD802F1D0788005F996C /* GlassWater */;
+			targetProxy = 5A00C33C2F368EB600AD47C2 /* PBXContainerItemProxy */;
+		};
+		5A956DC92F36BF9C00A30574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A956DB82F36BF9B00A30574 /* GlassWaterWatchWidgetExtension */;
+			targetProxy = 5A956DC82F36BF9C00A30574 /* PBXContainerItemProxy */;
+		};
+		5AD5F8172F1D8AB90011CAA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD5F80D2F1D8AB70011CAA6 /* GlassWaterWatchApp */;
+			targetProxy = 5AD5F8162F1D8AB90011CAA6 /* PBXContainerItemProxy */;
+		};
+		5AFC03B82F1D46E2005F996C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AFC03A22F1D46E0005F996C /* GlassWaterWidgetExtension */;
+			targetProxy = 5AFC03B72F1D46E2005F996C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A00C33E2F368EB600AD47C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glasswater.GlassWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlassWater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlassWater";
+			};
+			name = Debug;
+		};
+		5A00C33F2F368EB600AD47C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glasswater.GlassWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlassWater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlassWater";
+			};
+			name = Release;
+		};
+		5A956DCC2F36BF9C00A30574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = GlassWaterWatchWidgetExtension/GlassWaterWatchWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlassWaterWatchWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GlassWaterWatchWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glasswater.app.watchkitapp.GlassWaterWatchWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		5A956DCD2F36BF9C00A30574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = GlassWaterWatchWidgetExtension/GlassWaterWatchWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlassWaterWatchWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GlassWaterWatchWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glasswater.app.watchkitapp.GlassWaterWatchWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		5AD5F81A2F1D8AB90011CAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GlassWaterWatchApp/GlassWaterWatchApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GlassWater;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "GlassWater uses Health data to read your water intake.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "GlassWater uses Health data to save your water intake.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.glasswater.app;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glasswater.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		5AD5F81B2F1D8AB90011CAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GlassWaterWatchApp/GlassWaterWatchApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GlassWater;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "GlassWater uses Health data to read your water intake.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "GlassWater uses Health data to save your water intake.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.glasswater.app;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glasswater.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		5AFC03BB2F1D46E2005F996C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = GlassWaterWidgetExtensionExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlassWaterWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GlassWaterWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glasswater.app.GlassWaterWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AFC03BC2F1D46E2005F996C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = GlassWaterWidgetExtensionExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlassWaterWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GlassWaterWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glasswater.app.GlassWaterWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AFCFD8A2F1D0789005F996C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 68QXANBGJ9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AFCFD8B2F1D0789005F996C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 68QXANBGJ9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AFCFD8D2F1D0789005F996C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GlassWater/GlassWater.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GlassWater/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glasswater.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AFCFD8E2F1D0789005F996C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GlassWater/GlassWater.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GlassWater/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glasswater.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A00C3402F368EB600AD47C2 /* Build configuration list for PBXNativeTarget "GlassWaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A00C33E2F368EB600AD47C2 /* Debug */,
+				5A00C33F2F368EB600AD47C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A956DCB2F36BF9C00A30574 /* Build configuration list for PBXNativeTarget "GlassWaterWatchWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A956DCC2F36BF9C00A30574 /* Debug */,
+				5A956DCD2F36BF9C00A30574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD5F8192F1D8AB90011CAA6 /* Build configuration list for PBXNativeTarget "GlassWaterWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD5F81A2F1D8AB90011CAA6 /* Debug */,
+				5AD5F81B2F1D8AB90011CAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFC03BE2F1D46E2005F996C /* Build configuration list for PBXNativeTarget "GlassWaterWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFC03BB2F1D46E2005F996C /* Debug */,
+				5AFC03BC2F1D46E2005F996C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFCFD7C2F1D0788005F996C /* Build configuration list for PBXProject "GlassWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFCFD8A2F1D0789005F996C /* Debug */,
+				5AFCFD8B2F1D0789005F996C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFCFD8C2F1D0789005F996C /* Build configuration list for PBXNativeTarget "GlassWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFCFD8D2F1D0789005F996C /* Debug */,
+				5AFCFD8E2F1D0789005F996C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5AFD03002F1D1200005F996C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5AFD02012F1D1200005F996C /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AFD03002F1D1200005F996C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		5AFD02022F1D1200005F996C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AFD03002F1D1200005F996C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5AFD02032F1D1200005F996C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AFD03002F1D1200005F996C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5AFCFD792F1D0788005F996C /* Project object */;
+}

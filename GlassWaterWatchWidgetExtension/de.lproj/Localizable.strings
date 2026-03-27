@@ -1,0 +1,6 @@
+/* Watch Complication Strings */
+"watch_status_complete" = "Ziel erreicht!";
+"watch_remaining %@" = "Noch %@";
+"watch_complication_last_entry %@" = "Zuletzt: %@";
+"watch_complication_title" = "Flüssigkeitszufuhr";
+"watch_complication_description" = "Verfolge deine Wasseraufnahme";

@@ -1,0 +1,3 @@
+"NSHealthShareUsageDescription" = "O GlassWater usa dados do Saúde para ler sua ingestão de água.";
+"NSHealthUpdateUsageDescription" = "O GlassWater usa dados do Saúde para salvar sua ingestão de água.";
+"NSSiriUsageDescription" = "O GlassWater usa a Siri para registrar sua ingestão de água por voz.";

@@ -1,0 +1,6 @@
+/* Watch Complication Strings */
+"watch_status_complete" = "Meta atingida!";
+"watch_remaining %@" = "Faltam %@";
+"watch_complication_last_entry %@" = "Último: %@";
+"watch_complication_title" = "Hidratação";
+"watch_complication_description" = "Acompanhe sua ingestão de água";
